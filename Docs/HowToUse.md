@@ -39,8 +39,9 @@ In 04_Run_stpipeline.sh, change the line #SBATCH --mail-user=XXX to replace XXX 
 
 Open a Terminal window either in a Ruddle command-line interactive session or remote desktop, or ssh into Ruddle from a local Terminal/command-line window, and run (copy, then hit Enter) the following lines in sequence. Run these lines after you've already edited the scripts per the previous section.
 
+```
 sbatch 01_fetch_novogene_ftp.sh 
 sbatch 02_BuildSTARreference.sh
 sbatch 03_Run_fastq_process.sh
 sbatch 04_Run_stpipeline.sh
-
+```
